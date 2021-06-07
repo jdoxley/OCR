@@ -1,0 +1,19 @@
+{
+  "name": "ocr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jdoxley/OCR.git",
+  "author": "Jacob Oxley <jdoxley6@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll --verbose",
+    "build":"babel tests"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4"
+  }
+}
